@@ -1,0 +1,34 @@
+things learned soo far :
+
+// Why C++ exists: it builds on C with stronger type checking, abstraction (classes, templates), and a richer standard library.
+
+// Preprocessor statements: #include, #define, conditional compilation, and utility macros like assert.
+
+// How to compile with -std=c++98: this keeps you disciplined in the version you want to learn.
+
+// Namespaces: to organize and avoid naming collisions (std being the key example).
+
+// Core types: built-in types (int, double, etc.) and standard library types like std::string and std::vector.
+
+// C library headers in C++ style: e.g. <cstdio>, <cstdlib>, <cstring> instead of <stdio.h>, <stdlib.h>, <string.h>.
+
+// the input output streams and the use of them like " cin >> " and " cout << " and "cerr << "
+
+// first mention of manipulator like " endl "  write \n and flush to terminal
+
+// the scope operator adding "std:: " to a statment means use this func from the std lib
+
+// std::cin >> value fails if input cannot be converted to the type of value.  those the statements evaluate to false
+
+// there is mutiple c++ casting methods like static_cast reinterpret_cast const_cast dynamic_cast , each have a spicial use
+
+// some basics types the same as the ones i am used to in c + short and w_char and some of there uses 
+
+// new thing like reference and the use of control statements in c++ , but in all its the same as c
+
+//
+
+// classes , the how and the why ...
+
+// 
+
