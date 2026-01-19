@@ -1,0 +1,46 @@
+// represent 5.33 in  IEEE 754 standerd
+
+// we have 5 in binary is 1 + 4 so  101
+// the exponent is 2 then 2 + 127 = 129
+
+// 0.001
+
+// we have 
+//0.33 * 2 = 0.66 , 0
+//0.66 * 2 = 1.32 , 1
+//0.32 * 2 = 0.64 , 0
+//0.64 * 2 = 1.28 , 1
+//0.28 * 2 = 0.56 , 0
+//0.56 * 2 = 1.12 , 1
+//0.12 * 2 = 0.24 , 0
+//0.24 * 2 = 0.48 , 0
+//0.48 * 2 = 0.96 , 0
+//0.96 * 2 = 1.92 , 1
+//0.92 * 2 = 1.84 , 1
+//0.84 * 2 = 1.68 , 1
+//0.68 * 2 = 1.36 , 1
+//0.36 * 2 = 0.72 , 0
+//0.72 * 2 = 1.44 , 1
+//0.44 * 2 = 0.88 , 0
+//0.88 * 2 = 1.76 , 1
+//0.76 * 2 = 1.52 , 1
+//0.52 * 2 = 1.04 , 1
+//0.04 * 2 = 0.08 , 0
+//0.08 * 2 = 0.16 , 0
+
+// so the result is +1.(01010101000111101011100)x2(129)
+
+// 5.33(10) ~= 0 10000001 01010101000111101011100(2) IEEE 754
+
+// note this is not the exact 5.33 in binary instead its the closest binary representaion of 5.33 and its 5.33000004
+// and that why we say floats and double lack presision and thats why somethims the same numbers cant be equal 
+// 5.33 in float is defrent from double cus doble is ,more presice
+// and this is Accuracy vs. Precision , int is accurate but not presize that mean a int var is 100% accurte in binary , while in float not
+// while in presision a number float 5.33 is more presice the int 5.33
+
+
+// Ints are “accurate” but not precise for fractions.
+
+// Floats are “precise” but not always fully accurate.
+
+// soo if two number are epsilon close to each other we consider them equal
